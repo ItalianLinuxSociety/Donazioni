@@ -1,0 +1,6 @@
+{
+    "require": {
+        "ext-curl": "*",
+        "paypal/merchant-sdk-php": "*"
+    }
+}

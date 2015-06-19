@@ -1,0 +1,5 @@
+<?php
+
+define('PAYPAL_USERNAME', 'username');
+define('PAYPAL_PASSWORD', 'password');
+define('PAYPAL_SIGNATURE', 'signature');
