@@ -155,7 +155,7 @@ function lugfooter () {
 		<div class="block">
 			<h2>Network</h2>
 			<div class="content">
-				<script type="text/javaScript" src="http://www.linux.it/external/widgetils.php?referrer=lugmap"></script>
+				<script type="text/javaScript" src="http://www.linux.it/external/widgetils.php?referrer=donazioni"></script>
 				<div id="widgetils"></div>
 			</div>
 		</div>
