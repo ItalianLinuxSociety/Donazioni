@@ -68,7 +68,6 @@ $days = floor($datediff/(60*60*24));
 						<li>porting di python-whiteboard</li>
 						<li>driver di supporto per il controller WiiMote Plus</li>
 						<li>nuova interfaccia utente</li>
-						<li>pacchettizzazione, per agevolare l'installazione su sistemi esistenti</li>
 					</ul>
 				</div>
 			</div>
@@ -79,6 +78,7 @@ $days = floor($datediff/(60*60*24));
 				</div>
 				<div class="ten columns">
 					<ul>
+						<li>pacchettizzazione, per agevolare l'installazione su sistemi esistenti</li>
 						<li>gestione profili</li>
 						<li>comportamento configurabile</li>
 					</ul>

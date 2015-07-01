@@ -36,6 +36,11 @@ lugheader ('Donazioni');
 			<p>
 				E condividi questo sito presso amici e conoscenti affinché altri possano donare anche pochi euro per migliorare, con l'aiuto di tutti, il software di tutti.
 			</p>
+
+			<p style="text-align: center">
+				<a href="https://twitter.com/share?url=http%3A%2F%2Fdonazioni.linux.it%2F&amp;text=Con+l%27aiuto+di+tutti%2C+facciamo+il+software+di+tutti.+Io+ho+contribuito%2C+e+tu%3F" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" alt="Share on Twitter"><img src="/immagini/twitter.png"></a>
+				<a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fdonazioni.linux.it%2F" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" alt="Share on Facebook"><img src="/immagini/facebook.png"></a>
+			</p>
 		</div>
 	</div>
 </div>
