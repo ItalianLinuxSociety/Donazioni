@@ -187,29 +187,31 @@ function lugfooter () {
 <?php
 }
 
-function read_donations_file($filename, &$total_amount, &$total_quantity) {
-	if (file_exists($filename) == false)
-		return;
+function read_donations_file($filename) {
+	$total_amount = 0;
+	$total_quantity = 0;
 
-	$rows = file($filename);
+	if (file_exists($filename) == true) {
+		$rows = file($filename);
 
-	foreach ($rows as $row) {
-		$row = trim($row);
-		list($date, $person, $amount, $scope) = explode('|', $row);
+		foreach ($rows as $row) {
+			$row = trim($row);
+			list($date, $person, $amount, $scope) = explode('|', $row);
 
-		if (strpos($scope, $target) !== false) {
-			$total_amount += $amount;
-			$total_quantity += 1;
+			if (strpos($scope, $target) !== false) {
+				$total_amount += $amount;
+				$total_quantity += 1;
+			}
 		}
 	}
+
+	return array($total_amount, $total_quantity);
 }
 
 function recap_donations($target) {
-	$total_amount = 0;
-	$total_quantity = 0;
-	read_donations_file('data/summary.txt', $total_amount, $total_quantity);
-	read_donations_file('data/manual.txt', $total_amount, $total_quantity);
-	return array($total_amount, $total_quantity);
+	list($pp_amount, $pp_quantity) = read_donations_file('data/summary.txt');
+	list($ma_amount, $ma_quantity) = read_donations_file('data/manual.txt');
+	return array($pp_amount + $ma_amount, $pp_quantity + $ma_quantity);
 }
 
 function prov_select ($class) {
