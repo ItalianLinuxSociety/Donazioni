@@ -187,7 +187,7 @@ function lugfooter () {
 <?php
 }
 
-function read_donations_file($filename) {
+function read_donations_file($filename, $target) {
 	$total_amount = 0;
 	$total_quantity = 0;
 
@@ -209,8 +209,8 @@ function read_donations_file($filename) {
 }
 
 function recap_donations($target) {
-	list($pp_amount, $pp_quantity) = read_donations_file('data/summary.txt');
-	list($ma_amount, $ma_quantity) = read_donations_file('data/manual.txt');
+	list($pp_amount, $pp_quantity) = read_donations_file('data/summary.txt', $target);
+	list($ma_amount, $ma_quantity) = read_donations_file('data/manual.txt', $target);
 	return array($pp_amount + $ma_amount, $pp_quantity + $ma_quantity);
 }
 
