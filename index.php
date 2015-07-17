@@ -99,6 +99,9 @@ $days = floor($datediff/(60*60*24));
 					<p>
 						Lo sviluppo inizierà nel mese di agosto; sottoscrivi <a href="http://www.ils.org/newsletter">la newsletter di Italian Linux Society</a> per futuri aggiornamenti, e per ricevere informazioni sulle prossime raccolte fondi.
 					</p>
+					<p>
+						Tutto il denaro raccolto con questa campagna sarà destinato al progetto, indipendentemente dalla soglia raggiunta.
+					</p>
 				</div>
 			</div>
 
