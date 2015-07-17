@@ -54,6 +54,9 @@ $days = floor($datediff/(60*60*24));
 			<p>
 				Col tuo supporto, LightBoard potrà essere un efficace strumento per utilizzare una lavagna interattiva a basso costo fruibile da qualsiasi scuola (ed anche riproducibile a casa dagli studenti), compatta, reattiva e Linux-friendly.
 			</p>
+			<p>
+				L'applicazione verrà rilasciata in licenza GPLv3, ed il repository del codice ed i pacchetti installabili resi pubblici per tutti.
+			</p>
 
 			<hr/>
 
