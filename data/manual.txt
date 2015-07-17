@@ -1,1 +1,2 @@
 2015-07-05T17:11:30Z|Salvatore|25.00|lightboard + iscrizione
+2015-07-15T00:00:00Z|Roberto|10.00|lightboard
