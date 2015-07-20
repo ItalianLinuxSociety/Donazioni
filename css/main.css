@@ -90,6 +90,24 @@ a:hover {
 	font-size: 0.9em;
 }
 
+.closed {
+	padding: 20px;
+	border-radius: 5px;
+	display: table;
+	width: 100%;
+}
+
+.closed p {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.closed img {
+	float: left;
+	padding-right: 10px;
+}
+
 .sums {
 	font-family: monospace sans-serif;
 }

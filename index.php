@@ -22,9 +22,11 @@ require_once ('funzioni.php');
 lugheader ('Donazioni');
 
 list($amount, $quantity) = recap_donations('lightboard');
+$target = 4500;
+$ils_amount = 3000;
+$closing = strtotime("2015-07-31");
 
 $now = time();
-$closing = strtotime("2015-07-31");
 $datediff = $now - $closing;
 $days = floor($datediff/(60*60*24));
 
@@ -44,6 +46,16 @@ $days = floor($datediff/(60*60*24));
 	<div class="row">
 		<div class="eight columns">
 			<h1>Progetto in Corso: LightBoard</h1>
+		
+			<?php if(($ils_amount + $amount) >= $target): ?>
+			<div class="closed">
+				<img src="/immagini/flag.png">
+				<p>
+					Abbiamo raggiunto l'obiettivo di <?php echo $target ?> euro! La raccolta resterà aperta fino a fine mese, ma ricordate che prossimamente altre campagne analoghe verranno annunciate: se non avete contribuito adesso potrete comunque farlo presto! Restate aggiornati per mezzo della <a href="http://www.ils.org/newsletter">newsletter di Italian Linux Society</a>.
+				</p>
+				<p class="clear_spacer"></p>
+			</div>
+			<?php endif ?>
 
 			<p>
 				LightBoard intende essere una evoluzione di python-whiteboard, applicazione di supporto per la WiiLD, la Lavagna Digitale costruita con il WiiMote ed alternativa alle costose LIM (<a href="http://wiildos.wikispaces.com/Lavagna+col+wiimote">qui maggiori dettagli</a>).
@@ -151,13 +163,17 @@ $days = floor($datediff/(60*60*24));
 				<b><?php echo $amount ?> €</b>
 				<span>donati da <?php echo $quantity ?> persone</span>
 			</p>
+
+			<?php if($ils_amount != 0): ?>
 			<p>
-				<b>3000 €</b>
+				<b><?php echo $ils_amount ?> €</b>
 				<span>fondo Italian Linux Society</span>
 			</p>
+			<?php endif ?>
+			
 			<p>
-				<b><?php echo 3000 + $amount ?> €</b>
-				<span>raccolti su 4500 €</span>
+				<b><?php echo $ils_amount + $amount ?> €</b>
+				<span>raccolti su <?php echo $target ?> €</span>
 			</p>
 
 			<?php if($days <= 0): ?>
