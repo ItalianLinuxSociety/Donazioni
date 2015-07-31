@@ -80,7 +80,7 @@
 
 	<div class="menu">
 		<a class="generalink" href="/">Home</a>
-		<!-- <a class="generalink" href="/passati/">Progetti Passati</a> -->
+		<a class="generalink" href="/progetti/">Progetti Passati</a>
 		<a class="generalink" href="/contatti/">Contatti</a>
 
 		<p class="social">
@@ -209,9 +209,45 @@ function read_donations_file($filename, $target) {
 }
 
 function recap_donations($target) {
-	list($pp_amount, $pp_quantity) = read_donations_file('data/summary.txt', $target);
-	list($ma_amount, $ma_quantity) = read_donations_file('data/manual.txt', $target);
+	list($pp_amount, $pp_quantity) = read_donations_file($_SERVER['DOCUMENT_ROOT'] . '/data/summary.txt', $target);
+	list($ma_amount, $ma_quantity) = read_donations_file($_SERVER['DOCUMENT_ROOT'] . '/data/manual.txt', $target);
 	return array($pp_amount + $ma_amount, $pp_quantity + $ma_quantity);
+}
+
+function do_sums($project, $days) {
+	list($amount, $quantity) = recap_donations($project->tag);
+	$target = $project->target;
+	$ils_amount = $project->ils_fund;
+
+	?>
+
+	<div class="sums">
+		<p>
+			<b><?php echo $amount ?> €</b>
+			<span>donati da <?php echo $quantity ?> persone</span>
+		</p>
+
+		<?php if($ils_amount != 0): ?>
+		<p>
+			<b><?php echo $ils_amount ?> €</b>
+			<span>fondo Italian Linux Society</span>
+		</p>
+		<?php endif ?>
+
+		<p>
+			<b><?php echo $ils_amount + $amount ?> €</b>
+			<span>raccolti su <?php echo $target ?> €</span>
+		</p>
+
+		<?php if($days <= 0): ?>
+		<p>
+			<b><?php echo $days ?></b>
+			<span>giorni alla chiusura della raccolta per questo progetto</span>
+		</p>
+		<?php endif ?>
+	</div>
+
+	<?php
 }
 
 function prov_select ($class) {

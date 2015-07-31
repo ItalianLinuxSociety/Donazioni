@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Lighboard",
+		"tag": "lightboard",
+		"closing": "2015-07-31",
+		"target": 4500,
+		"ils_fund": 3000,
+		"paypal": "8KDSG75FRQXV6",
+
+		"descr": "LightBoard intende essere una evoluzione di python-whiteboard, applicazione di supporto per la WiiLD, la Lavagna Digitale costruita con il WiiMote ed alternativa alle costose LIM (<a href=\"http://wiildos.wikispaces.com/Lavagna+col+wiimote\">qui maggiori dettagli</a>).\nOttimizzato anche per i computer meno aggiornati o meno potenti, incluso il popolare ed economico Raspberry PI, ma allo stesso tempo aggiornato per i controller più recenti e precisi.\nCol tuo supporto, LightBoard potrà essere un efficace strumento per utilizzare una lavagna interattiva a basso costo fruibile da qualsiasi scuola (ed anche riproducibile a casa dagli studenti), compatta, reattiva e Linux-friendly.\nL'applicazione verrà rilasciata in licenza GPLv3, ed il repository del codice ed i pacchetti installabili resi pubblici per tutti.",
+
+		"aims": [
+			{
+				"amount": 3000,
+				"goals": [
+					"porting di python-whiteboard",
+					"driver di supporto per il controller WiiMote Plus",
+					"nuova interfaccia utente"
+				]
+			},
+			{
+				"amount": 4500,
+				"goals": [
+					"pacchettizzazione, per agevolare l'installazione su sistemi esistenti",
+					"gestione profili",
+					"comportamento configurabile"
+				]
+			}
+		]
+	}
+]
+
