@@ -1,4 +1,8 @@
+2015-07-22T00:00:00Z|Valeria|10.00|lightboard
+2015-07-22T00:00:00Z|Lorenzo|30.00|lightboard
 2015-07-22T17:45:00Z|Rosario|25.00|lightboard + iscrizione
+2015-07-21T00:00:00Z|Associazione Genitori|400.00|lightboard
+2015-07-21T00:00:00Z|Giovanni|12.00|lightboard
 2015-07-21T05:45:09Z|Alain|25.00|lightboard + iscrizione
 2015-07-20T14:30:51Z|Paolo|25.00|lightboard + iscrizione
 2015-07-20T11:26:49Z|Sergio|25.00|lightboard + iscrizione
