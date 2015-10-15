@@ -1,5 +1,32 @@
 [
 	{
+		"name": "LampSchool",
+		"tag": "lampschool",
+		"closing": "2015-11-16",
+		"target": 4500,
+		"ils_fund": 3000,
+		"paypal": "4BWDZ3A39ZYHU",
+
+		"descr": "<a href=\"http://www.lampschool.it/\">LampSchool</a> è il più popolare dei registri elettronici per le scuole italiane distribuito con licenza libera: permette di amministrare classi, voti, assenze, scrutini, documenti, programmazione normale e di sostegno e molte altre informazioni utili nella vita scolastica di ogni giorno. La sua più grande limitazione è, attualmente, la mancanza di interoperabilità con il sistema SIDI, per la trasmissione di tali informazioni al Ministero dell'Istruzione: l'intento di questa raccolta fondi è quello di realizzare una classe PHP che implementi il protocollo necessario, per potenziare definitivamente LampSchool e permettere comunque anche ad altri progetti futuri di godere di tale indispensabile funzionalità.",
+
+		"aims": [
+			{
+				"amount": 3000,
+				"goals": [
+					"raccolta documentazione tecnica",
+					"prima implementazione della classe di interoperabilità con il sistema SIDI"
+				]
+			},
+			{
+				"amount": 4500,
+				"goals": [
+					"integrazione con LampSchool",
+					"impacchettamento di un modulo Composer, per facilitare l'inclusione della classe in progetti esterni"
+				]
+			}
+		]
+	},
+	{
 		"name": "Lighboard",
 		"tag": "lightboard",
 		"closing": "2015-07-31",
