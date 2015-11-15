@@ -1,3 +1,6 @@
+2015-11-12T00:00:00Z|Paolo|25.00|lampschool + iscrizione
+2015-11-07T00:00:00Z|Lorenzo|25.00|lampschool + iscrizione
+2015-11-11T00:00:00Z|Valeria|15.00|lampschool
 2015-10-30T00:00:00Z|Fabio|120.00|lampschool
 2015-11-01T00:00:00Z|Massimo|25.00|lampschool + iscrizione
 2015-10-30T00:00:00Z|Carlo|25.00|lampschool + iscrizione
