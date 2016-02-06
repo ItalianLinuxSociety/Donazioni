@@ -48,6 +48,7 @@ $now = time();
 		<div class="row">
 			<div class="twelve columns historic">
 				<h2><?php echo $project->name ?><span>chiuso il <?php echo date('d/m/Y', strtotime($project->closing)) ?></span></h2>
+				<div class="status"><?php echo $project->status ?></div>
 				<?php do_sums($project, $days) ?>
 			</div>
 		</div>

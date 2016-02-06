@@ -117,11 +117,17 @@ a:hover {
 	float: left;
 	font-size: 3em;
 	line-height: 1em;
+	width: 50%;
 }
 
 .historic h2 span {
 	display: block;
 	font-size: 20px;
+}
+
+.historic .status {
+	float: left;
+	width: 55%;
 }
 
 .sums {
