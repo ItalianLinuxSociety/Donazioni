@@ -1,5 +1,34 @@
 [
 	{
+		"name": "SPID",
+		"tag": "spid",
+		"closing": "2016-03-10",
+		"target": 5000,
+		"ils_fund": 3000,
+		"paypal": "PZ6Y9EEL8YDAC",
+
+		"descr": "Il protocollo <a href=\"http://www.agid.gov.it/agenda-digitale/infrastrutture-architetture/spid\">SPID</a>, fortemente promosso dall'<a href=\"http://www.agid.gov.it/\">Agenzia per l'Italia Digitale</a>, intende essere il sistema di autenticazione unico per tutti i servizi digitali della Pubblica Amministrazione. L'obiettivo di questa raccolta fondi è fornirne una implementazione libera, che possa essere facilmente e rapidamente integrata su piattaforme opensource per abilitare al nuovo sistema i siti web di comuni, scuole e altri enti pubblici.<br/>Partecipa anche tu per accelerare l'adozione di piattaforme libere presso la pubblica amministrazione, e dimostrare alle istituzioni i vantaggi dello sviluppo collaborativo e condiviso!",
+		"status": "",
+
+		"aims": [
+			{
+				"amount": 3000,
+				"goals": [
+					"implementazione di riferimento",
+					"integrazione nel registro elettronico LampSchool per le scuole"
+				]
+			},
+			{
+				"amount": 5000,
+				"goals": [
+					"plugin Wordpress",
+					"plugin Drupal",
+					"plugin Joomla"
+				]
+			}
+		]
+	},
+	{
 		"name": "LampSchool",
 		"tag": "lampschool",
 		"closing": "2015-11-16",
