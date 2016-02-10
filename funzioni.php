@@ -199,7 +199,7 @@ function read_donations_file($filename, $target) {
 			list($date, $person, $amount, $scope) = explode('|', $row);
 
 			if (strpos($scope, $target) !== false) {
-				$total_amount += $amount;
+				$total_amount += round($amount);
 				$total_quantity += 1;
 			}
 		}
