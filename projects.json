@@ -8,7 +8,7 @@
 		"paypal": "PZ6Y9EEL8YDAC",
 
 		"descr": "Il protocollo <a href=\"http://www.agid.gov.it/agenda-digitale/infrastrutture-architetture/spid\">SPID</a>, fortemente promosso dall'<a href=\"http://www.agid.gov.it/\">Agenzia per l'Italia Digitale</a>, intende essere il sistema di autenticazione unico per tutti i servizi digitali della Pubblica Amministrazione. L'obiettivo di questa raccolta fondi è fornirne una implementazione libera, che possa essere facilmente e rapidamente integrata su piattaforme opensource per abilitare al nuovo sistema i siti web di comuni, scuole e altri enti pubblici.<br/>Partecipa anche tu per accelerare l'adozione di piattaforme libere presso la pubblica amministrazione, e dimostrare alle istituzioni i vantaggi dello sviluppo collaborativo e condiviso!",
-		"status": "",
+		"status": "Nel progetto sono state coinvolte le community Porte Aperte sul Web e Wordpress Italia, e sono stati instaurati contatti con l'Agenzia per l'Italia Digitale per supporto documentale ed operativo.",
 
 		"aims": [
 			{
@@ -37,7 +37,7 @@
 		"paypal": "4BWDZ3A39ZYHU",
 
 		"descr": "<a href=\"http://www.lampschool.it/\">LampSchool</a> è il più popolare dei registri elettronici per le scuole italiane distribuito con licenza libera: permette di amministrare classi, voti, assenze, scrutini, documenti, programmazione normale e di sostegno e molte altre informazioni utili nella vita scolastica di ogni giorno. La sua più grande limitazione è, attualmente, la mancanza di interoperabilità con il sistema SIDI, per la trasmissione di tali informazioni al Ministero dell'Istruzione: l'intento di questa raccolta fondi è quello di realizzare una classe PHP che implementi il protocollo necessario, per potenziare definitivamente LampSchool e permettere comunque anche ad altri progetti futuri di godere di tale indispensabile funzionalità.",
-		"status": "E' stata raccolta buona parte della documentazione necessaria ed è stata avviata l'implementazione. Oltre all'interfaccia SIDI verrà incluso anche il supporto a SGA, analogo protocollo di scambio utilizzato dalle scuole del Trentino.",
+		"status": "L'implementazione iniziale si trova <a href=\"https://github.com/soluzioniopen/lampsidi\">qui</a> ed è attualmente in fase di testing. Oltre all'interfaccia SIDI verrà incluso anche il supporto a SGA, analogo protocollo di scambio utilizzato dalle scuole del Trentino.",
 
 		"aims": [
 			{
