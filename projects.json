@@ -1,4 +1,30 @@
 [
+  {
+		"name": "So.Di.Linux",
+		"tag": "sodilinux",
+		"closing": "2016-06-18",
+		"target": 15000,
+		"ils_fund": 3000,
+		"paypal": "XFJQN6HQNA6WL",
+
+		"descr": "<a href=\"http://sodilinux.itd.cnr.it/\">So.Di.Linux</a> è la principale distribuzione italiana dedicata alla scuola: è preconfigurata con numerosi pacchetti software ad uso didattico per ogni grado scolastico, supporto per interagire con le Lavagne Multimediali Interattive presenti nelle aule, e numerose applicazioni (tutte rigorosamente libere e gratuite) per il sostegno all'apprendimento in presenza di disabilità. L'obiettivo di questa raccolta fondi è garantire il suo ciclo di aggiornamento, mantenimento e sviluppo nel corso del prossimo anno, ed adattare i numerosi ed utili pacchetti presenti nei suoi repository affinché possano essere facilmente installati anche su altre distribuzioni.",
+		"status": "",
+
+		"aims": [
+			{
+				"amount": 7000,
+				"goals": [
+					"allestimento della release 2016 di SoDiLinux"
+				]
+			},
+			{
+				"amount": 15000,
+				"goals": [
+					"revisione dei repository del progetto, per estendere la portabilità dei pacchetti a tutte le distribuzioni Ubuntu e derivate"
+				]
+			}
+		]
+	},
 	{
 		"name": "SPID",
 		"tag": "spid",
