@@ -67,6 +67,7 @@ $days = floor($datediff/(60*60*24));
 					<?php echo str_replace("\n", "</p><p>", $project->descr) ?>
 				</p>
 
+				<?php if(!empty($project->aims)): ?>
 				<hr/>
 
 				<h3>Obiettivi</h3>
@@ -85,6 +86,7 @@ $days = floor($datediff/(60*60*24));
 					</div>
 				</div>
 				<?php endforeach ?>
+				<?php endif ?>
 
 				<div style="clear: both"></div>
 
