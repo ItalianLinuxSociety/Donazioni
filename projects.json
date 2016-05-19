@@ -2,12 +2,12 @@
 	{
 		"name": "So.Di.Linux",
 		"tag": "sodilinux",
-		"closing": "2016-06-18",
+		"closing": "2016-06-19",
 		"target": 15000,
 		"ils_fund": 3000,
 		"paypal": "XFJQN6HQNA6WL",
 
-		"descr": "<a href=\"http://sodilinux.itd.cnr.it/\">So.Di.Linux</a> è la principale distribuzione italiana dedicata alla scuola: è preconfigurata con numerosi pacchetti software ad uso didattico per ogni grado scolastico, supporto per interagire con le Lavagne Multimediali Interattive presenti nelle aule, funzioni per l'accesso facilitato ed una serie di tecnologie assistive per gli allievi con disabilità. L'obiettivo di questa raccolta fondi è garantire il suo ciclo di aggiornamento, mantenimento e sviluppo nel corso del prossimo anno, adattare i numerosi ed utili pacchetti presenti nei suoi repository affinché possano essere facilmente installati anche su altre distribuzioni, e migliorare alcuni applicativi strategici per la piattaforma.",
+		"descr": "<a href=\"http://sodilinux.itd.cnr.it/\">So.Di.Linux</a> è la principale distribuzione italiana dedicata alla scuola: è preconfigurata con numerosi pacchetti software ad uso didattico per ogni grado scolastico, supporto per interagire con le Lavagne Multimediali Interattive presenti nelle aule, funzioni per l'accesso facilitato ed una serie di tecnologie assistive per gli allievi con disabilità.</p><p>L'obiettivo di questa raccolta fondi è garantire il suo ciclo di aggiornamento, mantenimento e sviluppo nel corso del prossimo anno, adattare i numerosi ed utili pacchetti presenti nei suoi repository affinché possano essere facilmente installati anche su altre distribuzioni, risolvere gli esistenti problemi di compatibilità e migliorare alcuni applicativi strategici per la piattaforma (in particolare Araword e Sankoré).",
 		"status": "",
 
 		"aims": []
