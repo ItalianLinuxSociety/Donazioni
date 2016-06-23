@@ -1,3 +1,9 @@
+2016-06-20T00:00:00Z|Costantina|30.00|sodilinux
+2016-06-16T00:00:00Z|Massimo|20.00|sodilinux
+2016-06-16T00:00:00Z|Valeria|30.00|sodilinux
+2016-06-03T00:00:00Z|Alessandro|150.00|sodilinux
+2016-06-13T00:00:00Z|Marco|20.00|sodilinux
+2016-06-09T00:00:00Z|Giovanni|15.00|sodilinux
 2016-05-30T00:00:00Z|Vincenzo|25.00|sodilinux + iscrizione
 2016-05-30T00:00:00Z|Emilia|30.00|sodilinux
 2016-05-27T00:00:00Z|Enzo|30.00|sodilinux
