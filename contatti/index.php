@@ -28,6 +28,11 @@ lugheader ('Contatti');
 		<div class="twelve columns contacts">
 			<p>"Donazioni" è una iniziativa <a href="http://www.ils.org/">Italian Linux Society</a>.</p>
 			<p>Per contatti relativi alla piattaforma, segnalazioni o commenti, manda una mail a <a href="mailto:webmaster@linux.it">webmaster@linux.it</a>.</p>
+			<p>Non esitare a contattarci anche se:</p>
+			<ul>
+				<li>hai proposte per progetti freesoftware da finanziare con una raccolta fondi</li>
+				<li>vuoi candidarti per occuparti dello sviluppo dei progetti finanziati</li>
+			</ul>
 			<p>Il codice sorgente di questo sito è distribuito in licenza <a href="http://www.gnu.org/licenses/agpl-3.0-standalone.html">AGPLv3</a>, e disponibile <a href="http://github.com/ItalianLinuxSociety/Donazioni">su questa pagina</a>. I contenuti sono pubblicati con licenza <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en_US">CC-Zero</a></p>
 		</div>
 	</div>
