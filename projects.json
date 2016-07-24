@@ -8,7 +8,7 @@
 		"paypal": "XFJQN6HQNA6WL",
 
 		"descr": "<img src=\"immagini/sodilinux.jpg\" style=\"float: right; width: 30%; margin-left: 15px; margin-bottom: 15px\" /><a href=\"http://sodilinux.itd.cnr.it/\">So.Di.Linux</a> è la principale distribuzione italiana dedicata alla scuola: è preconfigurata con numerosi pacchetti software ad uso didattico per ogni grado scolastico, supporto per interagire con le Lavagne Multimediali Interattive presenti nelle aule, funzioni per l'accesso facilitato ed una serie di tecnologie assistive per gli allievi con disabilità.</p><p>L'obiettivo di questa raccolta fondi è garantire il suo ciclo di aggiornamento, mantenimento e sviluppo nel corso del prossimo anno, adattare i numerosi ed utili pacchetti presenti nei suoi repository affinché possano essere facilmente installati anche su altre distribuzioni, risolvere gli esistenti problemi di compatibilità e migliorare alcuni applicativi strategici per la piattaforma (in particolare Araword e Sankoré).",
-		"status": "",
+		"status": "Sono attualmente allocati 2500 euro per l'avanzamento del progetto Araword, ed altri 2500 euro per un sostanziale upgrade di OpenSankoré.",
 
 		"aims": []
 	},
