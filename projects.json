@@ -8,7 +8,7 @@
 		"paypal": "XFJQN6HQNA6WL",
 
 		"descr": "<img src=\"immagini/sodilinux.jpg\" style=\"float: right; width: 30%; margin-left: 15px; margin-bottom: 15px\" /><a href=\"http://sodilinux.itd.cnr.it/\">So.Di.Linux</a> è la principale distribuzione italiana dedicata alla scuola: è preconfigurata con numerosi pacchetti software ad uso didattico per ogni grado scolastico, supporto per interagire con le Lavagne Multimediali Interattive presenti nelle aule, funzioni per l'accesso facilitato ed una serie di tecnologie assistive per gli allievi con disabilità.</p><p>L'obiettivo di questa raccolta fondi è garantire il suo ciclo di aggiornamento, mantenimento e sviluppo nel corso del prossimo anno, adattare i numerosi ed utili pacchetti presenti nei suoi repository affinché possano essere facilmente installati anche su altre distribuzioni, risolvere gli esistenti problemi di compatibilità e migliorare alcuni applicativi strategici per la piattaforma (in particolare Araword e Sankoré).",
-		"status": "Sono attualmente allocati 2500 euro per l'avanzamento del progetto Araword, ed altri 2500 euro per un sostanziale upgrade di OpenSankoré.",
+		"status": "La versione \"Orizzonti\" di SoDiLinux include i nuovi tools per l'aggiornamento e la gestione dei repository.",
 
 		"aims": []
 	},
@@ -21,7 +21,7 @@
 		"paypal": "PZ6Y9EEL8YDAC",
 
 		"descr": "Il protocollo <a href=\"http://www.agid.gov.it/agenda-digitale/infrastrutture-architetture/spid\">SPID</a>, fortemente promosso dall'<a href=\"http://www.agid.gov.it/\">Agenzia per l'Italia Digitale</a>, intende essere il sistema di autenticazione unico per tutti i servizi digitali della Pubblica Amministrazione. L'obiettivo di questa raccolta fondi è fornirne una implementazione libera, che possa essere facilmente e rapidamente integrata su piattaforme opensource per abilitare al nuovo sistema i siti web di comuni, scuole e altri enti pubblici.<br/>Partecipa anche tu per accelerare l'adozione di piattaforme libere presso la pubblica amministrazione, e dimostrare alle istituzioni i vantaggi dello sviluppo collaborativo e condiviso!",
-		"status": "Nel progetto sono state coinvolte le community Porte Aperte sul Web e Wordpress Italia, e sono stati instaurati contatti con l'Agenzia per l'Italia Digitale per supporto documentale ed operativo.",
+		"status": "Pubblicati i plugins SPID per <a href=\"https://wordpress.org/plugins/wp-spid-italia/\">Wordpress</a>, <a href=\"https://github.com/retepasw/drupal-spid\">Drupal</a> e <a href=\"https://github.com/retepasw/joomla-spid\">Joomla!</a>.",
 
 		"aims": [
 			{
