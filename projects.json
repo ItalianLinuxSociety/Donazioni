@@ -8,7 +8,7 @@
 		"paypal": "XFJQN6HQNA6WL",
 
 		"descr": "<img src=\"immagini/sodilinux.jpg\" style=\"float: right; width: 30%; margin-left: 15px; margin-bottom: 15px\" /><a href=\"http://sodilinux.itd.cnr.it/\">So.Di.Linux</a> è la principale distribuzione italiana dedicata alla scuola: è preconfigurata con numerosi pacchetti software ad uso didattico per ogni grado scolastico, supporto per interagire con le Lavagne Multimediali Interattive presenti nelle aule, funzioni per l'accesso facilitato ed una serie di tecnologie assistive per gli allievi con disabilità.</p><p>L'obiettivo di questa raccolta fondi è garantire il suo ciclo di aggiornamento, mantenimento e sviluppo nel corso del prossimo anno, adattare i numerosi ed utili pacchetti presenti nei suoi repository affinché possano essere facilmente installati anche su altre distribuzioni, risolvere gli esistenti problemi di compatibilità e migliorare alcuni applicativi strategici per la piattaforma (in particolare Araword e Sankoré).",
-		"status": "La versione \"Orizzonti\" di SoDiLinux include i nuovi tools per l'aggiornamento e la gestione dei repository.",
+		"status": "La versione \"Orizzonti\" di SoDiLinux include i nuovi tools per l'aggiornamento e la gestione dei repository. Parte del fondo è stata destinata al <a href=\"http://www.simcaa.it/presentazione/index.html\">progetto SIMCAA</a>",
 
 		"aims": []
 	},
@@ -50,7 +50,7 @@
 		"paypal": "4BWDZ3A39ZYHU",
 
 		"descr": "<a href=\"http://www.lampschool.it/\">LampSchool</a> è il più popolare dei registri elettronici per le scuole italiane distribuito con licenza libera: permette di amministrare classi, voti, assenze, scrutini, documenti, programmazione normale e di sostegno e molte altre informazioni utili nella vita scolastica di ogni giorno. La sua più grande limitazione è, attualmente, la mancanza di interoperabilità con il sistema SIDI, per la trasmissione di tali informazioni al Ministero dell'Istruzione: l'intento di questa raccolta fondi è quello di realizzare una classe PHP che implementi il protocollo necessario, per potenziare definitivamente LampSchool e permettere comunque anche ad altri progetti futuri di godere di tale indispensabile funzionalità.",
-		"status": "L'implementazione iniziale si trova <a href=\"https://github.com/soluzioniopen/lampsidi\">qui</a> ed è attualmente in fase di testing. Oltre all'interfaccia SIDI verrà incluso anche il supporto a SGA, analogo protocollo di scambio utilizzato dalle scuole del Trentino.",
+		"status": "L'implementazione si trova <a href=\"https://github.com/soluzioniopen/lampsidi\">qui</a>.",
 
 		"aims": [
 			{
@@ -78,7 +78,7 @@
 		"paypal": "8KDSG75FRQXV6",
 
 		"descr": "LightBoard intende essere una evoluzione di python-whiteboard, applicazione di supporto per la WiiLD, la Lavagna Digitale costruita con il WiiMote ed alternativa alle costose LIM (<a href=\"http://wiildos.wikispaces.com/Lavagna+col+wiimote\">qui maggiori dettagli</a>).\nOttimizzato anche per i computer meno aggiornati o meno potenti, incluso il popolare ed economico Raspberry PI, ma allo stesso tempo aggiornato per i controller più recenti e precisi.\nCol tuo supporto, LightBoard potrà essere un efficace strumento per utilizzare una lavagna interattiva a basso costo fruibile da qualsiasi scuola (ed anche riproducibile a casa dagli studenti), compatta, reattiva e Linux-friendly.\nL'applicazione verrà rilasciata in licenza GPLv3, ed il repository del codice ed i pacchetti installabili resi pubblici per tutti.",
-		"status": "<a href=\"https://github.com/GiovanniIncammicia/lightboard\">Qui è possibile accedere al repository del codice</a>, testato con la collaborazione del <a href=\"http://www.freelists.org/list/wiild-development\">gruppo WiiLD-dev</a>. L'implementazione è pressoché completa, manca solo la pacchettizzazione e la pubblicazione.",
+		"status": "",
 
 		"aims": [
 			{
