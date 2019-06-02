@@ -53,7 +53,7 @@ $days = floor($datediff/(60*60*24));
 			<div class="eight columns">
 				<h1>Progetto in Corso: <?php echo $project->name ?></h1>
 
-				<?php if(($ils_amount + $amount) >= $target): ?>
+				<?php if(($ils_amount == 'match' && $amount * 2 >= $target) || (($ils_amount + $amount) >= $target)): ?>
 				<div class="closed">
 					<img src="/immagini/flag.png">
 					<p>
@@ -96,7 +96,11 @@ $days = floor($datediff/(60*60*24));
 
 				<div class="row">
 					<div class="twelve columns">
-						<?php if($ils_amount != 0): ?>
+						<?php if($ils_amount == 'match'): ?>
+						<p>
+							I soci di Italian Linux Society raddoppiano le donazioni ricevute (fino ad un massimo di <?php echo $target / 2 ?> euro), e ti invitano a partecipare per portare a termine tutti gli obiettivi previsti.
+						</p>
+						<?php else if($ils_amount != 0): ?>
 						<p>
 							I soci di Italian Linux Society mettono a disposizione i primi <?php echo $ils_amount ?> euro della raccolta fondi, e ti invitano a partecipare per portare a termine tutti gli obiettivi previsti.
 						</p>

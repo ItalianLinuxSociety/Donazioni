@@ -227,7 +227,12 @@ function do_sums($project, $days) {
 			<span>donati da <?php echo $quantity ?> persone</span>
 		</p>
 
-		<?php if($ils_amount != 0): ?>
+		<?php if($ils_amount == 'match'): ?>
+		<p>
+			<b><?php echo $amount ?> €</b>
+			<span>fondo Italian Linux Society</span>
+		</p>
+		<?php else if($ils_amount != 0): ?>
 		<p>
 			<b><?php echo $ils_amount ?> €</b>
 			<span>fondo Italian Linux Society</span>
@@ -235,7 +240,7 @@ function do_sums($project, $days) {
 		<?php endif ?>
 
 		<p>
-			<b><?php echo $ils_amount + $amount ?> €</b>
+			<b><?php echo ($ils_amount == 'match') ? ($amount * 2) : ($ils_amount + $amount) ?> €</b>
 			<span>raccolti su <?php echo $target ?> €</span>
 		</p>
 
