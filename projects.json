@@ -1,5 +1,18 @@
 [
 	{
+		"name": "SIMCAA",
+		"tag": "simcaa",
+		"closing": "2019-07-15",
+		"target": 5000,
+		"ils_fund": "match",
+		"paypal": "7Y9T6F43SFQ7U",
+
+		"descr": "<a href=\"http://www.simcaa.it/\">SIMCAA</a> è un servizio web che permette di scrivere ed impaginare documenti secondo il paradigma della Comunicazione Aumentativa Alternativa, in cui le parole sono accompagnate da rappresentazioni grafiche che ne semplificano la comprensione da parte di persone affette da disabilità.</p><p>L'obiettivo di questa raccolta fondi è di sostenere gli ultimi sviluppi prima della prima release ufficiale dello strumento, ed integrare le funzioni utili per l'utilizzo a scuola.",
+		"status": "",
+
+		"aims": []
+	},
+	{
 		"name": "So.Di.Linux",
 		"tag": "sodilinux",
 		"closing": "2016-06-19",
