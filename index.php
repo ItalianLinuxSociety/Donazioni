@@ -100,7 +100,7 @@ $days = floor($datediff/(60*60*24));
 						<p>
 							I soci di Italian Linux Society raddoppiano le donazioni ricevute (fino ad un massimo di <?php echo $target / 2 ?> euro), e ti invitano a partecipare per portare a termine tutti gli obiettivi previsti.
 						</p>
-						<?php else if($ils_amount != 0): ?>
+						<?php elseif($ils_amount != 0): ?>
 						<p>
 							I soci di Italian Linux Society mettono a disposizione i primi <?php echo $ils_amount ?> euro della raccolta fondi, e ti invitano a partecipare per portare a termine tutti gli obiettivi previsti.
 						</p>

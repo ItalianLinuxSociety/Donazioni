@@ -17,7 +17,7 @@ $config = array(
 );
 
 $summaryfile = 'data/summary.txt';
-$startdate = '2015-06-01T00:00:00Z';
+$startdate = '2019-05-01T00:00:00Z';
 if (file_exists($summaryfile)) {
 	$rows = file($summaryfile);
 	for ($i = count($rows) - 1; $i >= 0; $i++) {
@@ -66,3 +66,4 @@ try {
 catch (Exception $ex) {
 	mail ('webmaster@linux.it', 'notifica script donazioni', "Errore lettura conti PayPal\n", 'From: linux.it <webmaster@linux.it>' . "\r\n");
 }
+

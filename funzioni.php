@@ -232,7 +232,7 @@ function do_sums($project, $days) {
 			<b><?php echo $amount ?> €</b>
 			<span>fondo Italian Linux Society</span>
 		</p>
-		<?php else if($ils_amount != 0): ?>
+		<?php elseif($ils_amount != 0): ?>
 		<p>
 			<b><?php echo $ils_amount ?> €</b>
 			<span>fondo Italian Linux Society</span>
