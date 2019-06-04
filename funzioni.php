@@ -84,10 +84,9 @@
 		<a class="generalink" href="/contatti/">Contatti</a>
 
 		<p class="social">
-			<!-- Icone prese da http://kooc.co.uk/need-some-up-to-date-social-media-icons -->
-			<a href="http://twitter.com/#!/ItaLinuxSociety"><img src="http://lugmap.linux.it/immagini/twitter.png"></a>
-			<a href="https://github.com/ItalianLinuxSociety/Donazioni/commits/master.atom"><img src="http://lugmap.linux.it/immagini/rss.png"></a>
-			<a href="https://github.com/ItalianLinuxSociety/Donazioni"><img src="http://lugmap.linux.it/immagini/github.png"></a>
+			<a href="https://twitter.com/ItaLinuxSociety"><img src="//www.ils.org/sites/all/themes/linuxday2/images/twitter.png"></a>
+			<a href="https://www.facebook.com/ItaLinuxSociety/"><img src="//www.ils.org/sites/all/themes/linuxday2/images/facebook.png"></a>
+			<a href="https://github.com/ItalianLinuxSociety/Donazioni"><img src="//www.ils.org/sites/all/themes/linuxday2/images/github.png"></a>
 		</p>
 	</div>
 </div>
