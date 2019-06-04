@@ -92,13 +92,11 @@ $days = floor($datediff/(60*60*24));
 
 				<hr/>
 
-				<h3>Startup</h3>
-
 				<div class="row">
 					<div class="twelve columns">
 						<?php if($ils_amount == 'match'): ?>
 						<p>
-							I soci di Italian Linux Society raddoppiano le donazioni ricevute (fino ad un massimo di <?php echo $target / 2 ?> euro), e ti invitano a partecipare per portare a termine tutti gli obiettivi previsti.
+							<strong>I soci di Italian Linux Society raddoppiano le donazioni ricevute</strong> (fino ad un massimo di <?php echo $target / 2 ?> euro): più doni tu, più dona Italian Linux Society!
 						</p>
 						<?php elseif($ils_amount != 0): ?>
 						<p>

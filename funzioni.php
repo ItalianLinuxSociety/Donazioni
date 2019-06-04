@@ -190,6 +190,7 @@ function lugfooter () {
 function read_donations_file($filename, $target) {
 	$total_amount = 0;
 	$total_quantity = 0;
+	$target = strtolower($target);
 
 	if (file_exists($filename) == true) {
 		$rows = file($filename);
@@ -197,6 +198,7 @@ function read_donations_file($filename, $target) {
 		foreach ($rows as $row) {
 			$row = trim($row);
 			list($date, $person, $amount, $scope) = explode('|', $row);
+			$scope = strtolower($scope);
 
 			if (strpos($scope, $target) !== false) {
 				$total_amount += round($amount);
@@ -229,7 +231,7 @@ function do_sums($project, $days) {
 
 		<?php if($ils_amount == 'match'): ?>
 		<p>
-			<b><?php echo $amount ?> €</b>
+			<b><?php echo (($amount * 2) > $target ? $target / 2 : $amount) ?> €</b>
 			<span>fondo Italian Linux Society</span>
 		</p>
 		<?php elseif($ils_amount != 0): ?>
