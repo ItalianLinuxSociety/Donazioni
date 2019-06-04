@@ -92,26 +92,22 @@ $days = floor($datediff/(60*60*24));
 
 				<hr/>
 
-				<div class="row">
-					<div class="twelve columns">
-						<?php if($ils_amount == 'match'): ?>
-						<p>
-							<strong>I soci di Italian Linux Society raddoppiano le donazioni ricevute</strong> (fino ad un massimo di <?php echo $target / 2 ?> euro): più doni tu, più dona Italian Linux Society!
-						</p>
-						<?php elseif($ils_amount != 0): ?>
-						<p>
-							I soci di Italian Linux Society mettono a disposizione i primi <?php echo $ils_amount ?> euro della raccolta fondi, e ti invitano a partecipare per portare a termine tutti gli obiettivi previsti.
-						</p>
-						<?php endif ?>
+				<?php if($ils_amount == 'match'): ?>
+				<p>
+					<strong>I soci di Italian Linux Society raddoppiano le donazioni ricevute</strong> (fino ad un massimo di <?php echo $target / 2 ?> euro): più doni tu, più dona Italian Linux Society!
+				</p>
+				<?php elseif($ils_amount != 0): ?>
+				<p>
+					I soci di Italian Linux Society mettono a disposizione i primi <?php echo $ils_amount ?> euro della raccolta fondi, e ti invitano a partecipare per portare a termine tutti gli obiettivi previsti.
+				</p>
+				<?php endif ?>
 
-						<p>
-							Tutto il denaro raccolto con questa campagna sarà destinato al progetto, indipendentemente dalla soglia raggiunta.
-						</p>
-						<p>
-							Sottoscrivi <a href="http://www.ils.org/newsletter">la newsletter di Italian Linux Society</a> per futuri aggiornamenti, e per ricevere informazioni sulle prossime raccolte fondi.
-						</p>
-					</div>
-				</div>
+				<p>
+					Tutto il denaro raccolto con questa campagna sarà destinato al progetto, indipendentemente dalla soglia raggiunta.
+				</p>
+				<p>
+					Sottoscrivi <a href="http://www.ils.org/newsletter">la newsletter di Italian Linux Society</a> per futuri aggiornamenti, e per ricevere informazioni sulle prossime raccolte fondi.
+				</p>
 
 				<?php if($days <= 0): ?>
 				<hr/>

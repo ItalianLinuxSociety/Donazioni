@@ -105,8 +105,6 @@ function lugfooter () {
 					<img src="http://lugmap.linux.it/immagini/agpl3.svg" style="border-width:0" alt="AGPLv3 License">
 				</a>
 
-				<br />
-
 				<a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en_US" rel="license">
 					<img src="http://lugmap.linux.it/immagini/cczero.png" style="border-width:0" alt="Creative Commons License">
 				</a>
