@@ -2,12 +2,12 @@
 	{
 		"name": "SIMCAA",
 		"tag": "SIMCAA",
-		"closing": "2019-07-15",
+		"closing": "2019-08-15",
 		"target": 5000,
 		"ils_fund": "match",
 		"paypal": "7Y9T6F43SFQ7U",
 
-		"descr": "<a href=\"http://www.simcaa.it/\">SIMCAA</a> è un servizio web che permette di scrivere ed impaginare documenti secondo il paradigma della Comunicazione Aumentativa Alternativa, in cui le parole sono accompagnate da rappresentazioni grafiche che ne semplificano la comprensione da parte di persone affette da disabilità.</p><p>L'obiettivo di questa raccolta fondi è di sostenere gli ultimi sviluppi prima della prima release ufficiale dello strumento, ed integrare le funzioni utili per l'utilizzo a scuola.",
+		"descr": "<a href=\"http://www.simcaa.it/\">SIMCAA</a> è una applicazione web libera e gratuita, rilascata con licenza AGPL, che permette di creare tavole e pagine PDF e di convertire la comunicazione in pittogrammi utilizzando il sistema simbolico ARASAAC ed il paradigma della Comunicazione Aumentativa Alternativa (CAA), che semplifica la comprensione di testi da parte di persone affette da disabilità.</p><p>SIMCAA permette di:</p><ul><li>comunicare e far comunicare in modo libero con qualsiasi device connesso a internet</li><li>implementare con immagini personali il proprio corredo di pittogrammi</li><li>leggere con sintesi vocale i testi trasformati in CAA</li><li>impaginare e rendere fruibile in fascicoli o dispense gli argomenti o le tavole create</li><li>creare community fra utenti e gruppi</li></ul><p>Gli obiettivi di questa raccolta fondi sono:</p><ul><li>sostenere lo sviluppo di nuove funzioni richieste dalle scuole</li><li>migliorare l'ambientre tipografico</li><li>migliorare la sintesi vocale multilingua</li><li>introdurre la possibilità di implementare tabelle comunicative</li><li>allestire e presidiare una infrastruttura tecnologica in grado di fornire un servizio adeguato ad una quantità di utenti in continua crescita, dalla fase demo alla fase di produzione</li></ul><p>",
 		"status": "",
 
 		"aims": []
