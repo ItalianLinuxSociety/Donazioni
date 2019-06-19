@@ -1,3 +1,4 @@
+2019-06-19T00:00:00Z|Claudio|15.00|SIMCAA
 2016-06-20T00:00:00Z|Costantina|30.00|sodilinux
 2016-06-16T00:00:00Z|Massimo|20.00|sodilinux
 2016-06-16T00:00:00Z|Valeria|30.00|sodilinux
