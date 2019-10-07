@@ -1,6 +1,6 @@
 <?php
-/*Codice della mappa dei LUG italiani
-  Copyright (C) 2010-2015  Italian Linux Society - http://www.linux.it
+/*
+  Copyright (C) 2010-2019  Italian Linux Society - http://www.linux.it
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU Affero General Public License as
@@ -13,7 +13,8 @@
   GNU Affero General Public License for more details.
 
   You should have received a copy of the GNU Affero General Public License
-  along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 ?>
 
 <?php function lugheader ($title, $extracss = null, $extrajs = null) { ?>
@@ -25,8 +26,8 @@
 	<meta name="robots" content="noarchive" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Nobile|Nobile:b" />
-	<link href="/css/main.css" rel="stylesheet" type="text/css" />
+	<link href="https://www.linux.it/shared/index.php?f=bootstrap.css" rel="stylesheet" type="text/css" />
+	<link href="https://www.linux.it/shared/index.php?f=main.css" rel="stylesheet" type="text/css" />
 
 	<meta name="dcterms.creator" content="Italian Linux Society" />
 	<meta name="dcterms.type" content="Text" />
@@ -70,7 +71,7 @@
 
 	<title><?php echo $title; ?></title>
 </head>
-<!-- <a href="http://lugmap.linux.it/css/contact.php">select</a> -->
+
 <body>
 
 <div id="header">
@@ -83,10 +84,10 @@
 		<a class="generalink" href="/progetti/">Progetti Passati</a>
 		<a class="generalink" href="/contatti/">Contatti</a>
 
-		<p class="social">
-			<a href="https://twitter.com/ItaLinuxSociety"><img src="//www.ils.org/sites/all/themes/linuxday2/images/twitter.png"></a>
-			<a href="https://www.facebook.com/ItaLinuxSociety/"><img src="//www.ils.org/sites/all/themes/linuxday2/images/facebook.png"></a>
-			<a href="https://github.com/ItalianLinuxSociety/Donazioni"><img src="//www.ils.org/sites/all/themes/linuxday2/images/github.png"></a>
+		<p class="social mt-2">
+			<a href="https://twitter.com/ItaLinuxSociety"><img src="https://www.linux.it/shared/index.php?f=immagini/twitter.png"></a>
+			<a href="https://www.facebook.com/ItaLinuxSociety/"><img src="https://www.linux.it/shared/index.php?f=immagini/facebook.png"></a>
+			<a href="https://github.com/ItalianLinuxSociety/Donazioni"><img src="https://www.linux.it/shared/index.php?f=immagini/github.png"></a>
 		</p>
 	</div>
 </div>
@@ -97,49 +98,46 @@
 function lugfooter () {
 ?>
 
-<div id="ils_footer">
-	<div class="contents">
-		<div class="block">
-			<span style="text-align: center; display: block">
-				<a href="http://www.gnu.org/licenses/agpl-3.0-standalone.html" rel="license">
-					<img src="http://lugmap.linux.it/immagini/agpl3.svg" style="border-width:0" alt="AGPLv3 License">
-				</a>
+<div id="ils_footer" class="mt-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<span style="text-align: center; display: block">
+					<a href="http://www.gnu.org/licenses/agpl-3.0-standalone.html" rel="license">
+						<img src="https://www.linux.it/shared/index.php?f=immagini/agpl3.svg" style="border-width:0" alt="AGPLv3 License">
+					</a>
 
-				<a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en_US" rel="license">
-					<img src="http://lugmap.linux.it/immagini/cczero.png" style="border-width:0" alt="Creative Commons License">
-				</a>
-			</span>
-		</div>
-
-		<div class="block">
-			<h2>RESTA AGGIORNATO!</h2>
-			<div class="content">
-				<div class="newsletter_subscribe">
-					<p>
-						Iscriviti alla newsletter per aggiornamenti periodici sul software libero in Italia!
-					</p>
-
-					<p>
-						Specificando la tua provincia di residenza riceverai anche gli annunci sulle <a href="http://www.linux.it/eventi">attività svolte dai LUG e dai gruppi amici</a> nella tua zona.
-					</p>
-
-					<form class="webform-client-form" action="http://www.linux.it/subscribe.php" method="get">
-						<input type="email" class="form-text" name="name" placeholder="Indirizzo Mail" />
-						<p style="display: none">
-							<input type="text" name="mail" />
-						</p>
-
-						<?php prov_select ('form-select'); ?>
-
-						<input type="submit" class="form-submit" value="Iscriviti" />
-					</form>
-				</div>
+					<a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en_US" rel="license">
+						<img src="https://www.linux.it/shared/index.php?f=immagini/cczero.png" style="border-width:0" alt="Creative Commons License">
+					</a>
+				</span>
 			</div>
-		</div>
 
-		<div class="block">
-			<h2>Amici</h2>
-			<div class="content">
+			<div class="col-md-3">
+				<h2>RESTA AGGIORNATO!</h2>
+				<p>
+					Iscriviti alla newsletter per aggiornamenti periodici sul software libero in Italia!
+				</p>
+
+				<p>
+					Specificando la tua provincia di residenza riceverai anche gli annunci sulle <a href="http://www.linux.it/eventi">attività svolte dai LUG e dai gruppi amici</a> nella tua zona.
+				</p>
+
+				<form class="webform-client-form" action="http://www.linux.it/subscribe.php" method="get">
+					<input type="email" class="form-control" name="name" placeholder="Indirizzo Mail" />
+
+					<p style="display: none">
+						<input type="text" name="mail" />
+					</p>
+
+					<?php prov_select ('form-control'); ?>
+
+					<input type="submit" class="form-control" value="Iscriviti" />
+				</form>
+			</div>
+
+			<div class="col-md-3">
+				<h2>Amici</h2>
 				<p style="text-align: center">
 					<a href="http://www.ils.org/info#aderenti">
 						<img src="http://www.ils.org/sites/ils.org/files/associazioni/getrand.php" border="0" /><br />
@@ -147,11 +145,9 @@ function lugfooter () {
 					</a>
 				</p>
 			</div>
-		</div>
 
-		<div class="block">
-			<h2>Network</h2>
-			<div class="content">
+			<div class="col-md-3">
+				<h2>Network</h2>
 				<script type="text/javaScript" src="http://www.linux.it/external/widgetils.php?referrer=donazioni"></script>
 				<div id="widgetils"></div>
 			</div>
@@ -220,7 +216,7 @@ function do_sums($project, $days) {
 
 	?>
 
-	<div class="sums">
+	<div class="col-4 text-right sums">
 		<p>
 			<b><?php echo $amount ?> €</b>
 			<span>donati da <?php echo $quantity ?> persone</span>
@@ -374,4 +370,3 @@ function prov_select ($class) {
 	<?php
 }
 
-?>

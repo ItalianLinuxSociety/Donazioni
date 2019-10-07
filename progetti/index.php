@@ -1,6 +1,6 @@
 <?php
 /*
-  Copyright (C) 2010-2015  Italian Linux Society - http://www.linux.it
+  Copyright (C) 2010-2019  Italian Linux Society - http://www.linux.it
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU Affero General Public License as
@@ -13,7 +13,8 @@
   GNU Affero General Public License for more details.
 
   You should have received a copy of the GNU Affero General Public License
-  along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 ?>
 
 <?php
@@ -26,11 +27,16 @@ $now = time();
 
 ?>
 
-<div class="container">
+<div class="container main-contents">
 	<div class="row">
-		<p>
-			Sono qui elencati i progetti che sono stati ospitati su donazioni.linux.it, con le relative cifre, numeri e riferimenti.
-		</p>
+		<div class="col">
+			<br>
+			<div class="alert alert-info">
+				<p>
+					Sono qui elencati i progetti che sono stati ospitati su donazioni.linux.it, con le relative cifre, numeri e riferimenti.
+				</p>
+			</div>
+		</div>
 	</div>
 
 	<?php foreach($projects as $project): ?>
@@ -45,16 +51,23 @@ $now = time();
 
 		?>
 
+		<hr>
+
 		<div class="row">
-			<div class="twelve columns historic">
-				<h2><?php echo $project->name ?><span>chiuso il <?php echo date('d/m/Y', strtotime($project->closing)) ?></span></h2>
+			<div class="col">
+				<h2>
+					<?php echo $project->name ?><br>
+					<small>chiuso il <?php echo date('d/m/Y', strtotime($project->closing)) ?></small>
+				</h2>
 				<div class="status"><?php echo $project->status ?></div>
-				<?php do_sums($project, $days) ?>
 			</div>
+			<?php do_sums($project, $days) ?>
 		</div>
+
 	<?php endforeach ?>
 </div>
 
 <div style="clear: both; margin-bottom: 20px"></div>
 
 <?php lugfooter (); ?>
+

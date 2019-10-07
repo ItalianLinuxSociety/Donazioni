@@ -1,6 +1,6 @@
 <?php
 /*
-  Copyright (C) 2010-2015  Italian Linux Society - http://www.linux.it
+  Copyright (C) 2010-2019  Italian Linux Society - http://www.linux.it
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU Affero General Public License as
@@ -13,7 +13,8 @@
   GNU Affero General Public License for more details.
 
   You should have received a copy of the GNU Affero General Public License
-  along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 ?>
 
 <?php
@@ -31,14 +32,21 @@ $days = floor($datediff/(60*60*24));
 
 ?>
 
-<div class="container">
+<div class="container main-contents">
 	<div class="row">
-		<div class="twelve columns intro">
-			<p>
-				Ogni giorno promuoviamo l'importanza, tecnica e sociale, dell'accesso al codice sorgente delle applicazioni software, nonché la cultura della condivisione e la priorità di una scelta consapevole. Ma non basta.<br/>
-				Il software libero non può essere solo promosso e divulgato, ma deve anche essere implementato. E per farlo nel migliore dei modi servono risorse, umane ed economiche.<br/>
-				Sostieni anche tu il software libero: ogni donazione, anche da pochi euro, fa la differenza.
-			</p>
+		<div class="col intro">
+			<div class="row">
+				<div class="col-9 align-self-center">
+					<p>
+						Ogni giorno promuoviamo l'importanza, tecnica e sociale, dell'accesso al codice sorgente delle applicazioni software, nonché la cultura della condivisione e la priorità di una scelta consapevole. Ma non basta.<br/>
+						Il software libero non può essere solo promosso e divulgato, ma deve anche essere implementato. E per farlo nel migliore dei modi servono risorse, umane ed economiche.<br/>
+						Sostieni anche tu il software libero: ogni donazione, anche da pochi euro, fa la differenza.
+					</p>
+				</div>
+				<div class="col-3 align-self-center">
+					<img class="img-fluid" src="/immagini/icona.png">
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -50,8 +58,8 @@ $days = floor($datediff/(60*60*24));
 		?>
 
 		<div class="row">
-			<div class="eight columns">
-				<h1>Progetto in Corso: <?php echo $project->name ?></h1>
+			<div class="col-8">
+				<h2>Progetto in Corso: <?php echo $project->name ?></h2>
 
 				<?php if(($ils_amount == 'match' && $amount * 2 >= $target) || (($ils_amount + $amount) >= $target)): ?>
 				<div class="closed">
@@ -108,53 +116,51 @@ $days = floor($datediff/(60*60*24));
 				<p>
 					Sottoscrivi <a href="http://www.ils.org/newsletter">la newsletter di Italian Linux Society</a> per futuri aggiornamenti, e per ricevere informazioni sulle prossime raccolte fondi.
 				</p>
-
-				<?php if($days <= 0): ?>
-				<hr/>
-
-				<h3>Dona adesso!</h3>
-
-				<div class="row">
-					<div class="six columns centered">
-						<p>
-							Con <strong>PayPal</strong><br/>
-							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-								<input type="hidden" name="cmd" value="_s-xclick">
-								<input type="hidden" name="hosted_button_id" value="<?php echo $project->paypal ?>">
-								<input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-								<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-							</form>
-						</p>
-					</div>
-
-					<div class="six columns centered">
-						<p>
-							Con un <strong>bonifico</strong>, sull'IBAN<br/>
-							<strong class="mono">IT 74 G 02008 12609 000100129899</strong><br/>
-							intestato a<br/>
-							ILS ITALIAN LINUX SOCIETY<br/>
-							specificando come causale<br/>
-							"progetto <?php echo $project->tag ?>"
-						</p>
-					</div>
-
-					<div class="twelve columns">
-						<p>
-							<strong>Bonus</strong>: iscrivendoti oggi ad Italian Linux Society la tua quota di iscrizione andrà direttamente a sostegno di questo progetto e tu potrai godere di <a href="http://www.ils.org/iscrizione">tutti i benefici dei soci ILS</a>.
-						</p>
-					</div>
-				</div>
-				<?php endif ?>
 			</div>
 
-			<div class="four columns sums">
-				<?php do_sums($project, $days) ?>
+			<?php do_sums($project, $days) ?>
+		</div>
+
+		<hr/>
+
+		<div class="text-center">
+			<h3>Dona adesso!</h3>
+
+			<div class="row">
+				<div class="col">
+					<p>
+						Con <strong>PayPal</strong><br/>
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="<?php echo $project->paypal ?>">
+							<input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+					</p>
+				</div>
+
+				<div class="col">
+					<p>
+						Con un <strong>bonifico</strong>, sull'IBAN<br/>
+						<strong class="mono">IT 74 G 02008 12609 000100129899</strong><br/>
+						intestato a<br/>
+						ILS ITALIAN LINUX SOCIETY<br/>
+						specificando come causale<br/>
+						"progetto <?php echo $project->tag ?>"
+					</p>
+				</div>
+
+				<div class="twelve columns">
+					<p>
+						<strong>Bonus</strong>: iscrivendoti oggi ad Italian Linux Society la tua quota di iscrizione andrà direttamente a sostegno di questo progetto e tu potrai godere di <a href="http://www.ils.org/iscrizione">tutti i benefici dei soci ILS</a>.
+					</p>
+				</div>
 			</div>
 		</div>
 	<?php else: ?>
 		<div class="container">
 			<div class="row">
-				<div class="twelve columns">
+				<div class="col">
 					<p>
 						Non sono al momento attive campagne di raccolta fondi.
 					</p>

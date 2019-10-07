@@ -23,9 +23,9 @@ lugheader ('Contatti');
 
 ?>
 
-<div class="container">
+<div class="container main-contents">
 	<div class="row">
-		<div class="twelve columns contacts">
+		<div class="col contacts">
 			<p>"Donazioni" è una iniziativa <a href="http://www.ils.org/">Italian Linux Society</a>.</p>
 			<p>Per contatti relativi alla piattaforma, segnalazioni o commenti, manda una mail a <a href="mailto:webmaster@linux.it">webmaster@linux.it</a>.</p>
 			<p>Non esitare a contattarci anche se:</p>
@@ -41,3 +41,4 @@ lugheader ('Contatti');
 <div style="clear: both; margin-bottom: 20px"></div>
 
 <?php lugfooter (); ?>
+
